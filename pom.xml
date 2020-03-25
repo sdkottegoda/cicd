@@ -10,9 +10,9 @@
   <description>MavenParentProject</description>
   <modules>
     <module>cicd</module>
+    <module>cicdCompositeApplication</module>
     <module>cicdDockerExporter</module>
     <module>cicdKubernetesExporter</module>
-    <module>cicdCompositeApplication</module>
   </modules>
   <build>
     <plugins>
