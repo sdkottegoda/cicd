@@ -1,0 +1,15 @@
+<mock-service>
+    <service-name>mockService</service-name>
+    <port>9000</port>
+    <context>/test</context>
+    <resources>
+        <resource>
+            <sub-context>/post</sub-context>
+            <method>POST</method>
+            <response>
+                <status-code>200</status-code>
+                <payload><![CDATA[{status:"done"}]]></payload>
+            </response>
+        </resource>
+    </resources>
+</mock-service>

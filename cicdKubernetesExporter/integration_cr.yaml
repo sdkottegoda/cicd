@@ -1,0 +1,8 @@
+---
+apiVersion: "integration.wso2.com/v1alpha1"
+kind: "Integration"
+metadata:
+  name: "cicd"
+spec:
+  replicas: 2
+  image: "sdkottegoda/micro-integrator:1.2.0"
